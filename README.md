@@ -7,4 +7,4 @@
 
 ### To deploy the function
 1. Validate the function by running it locally first.
-2. Push it github. Github actions will deploy the function
+2. Push it to github. Github actions will deploy the function
