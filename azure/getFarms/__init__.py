@@ -25,5 +25,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-            dumps(collection.find_one()),
+            dumps(list(collection.find())),
         )
