@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D067BE025DC9ADB005A11C7 /* FreshFarmEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D067BDF25DC9ADB005A11C7 /* FreshFarmEatsApp.swift */; };
+		8D067BE225DC9ADB005A11C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D067BE125DC9ADB005A11C7 /* ContentView.swift */; };
+		8D067BE425DC9ADE005A11C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D067BE325DC9ADE005A11C7 /* Assets.xcassets */; };
+		8D067BE725DC9ADE005A11C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D067BE625DC9ADE005A11C7 /* Preview Assets.xcassets */; };
+		8D067BF225DC9ADE005A11C7 /* FreshFarmEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D067BF125DC9ADE005A11C7 /* FreshFarmEatsTests.swift */; };
+		8D067BFD25DC9ADE005A11C7 /* FreshFarmEatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D067BFC25DC9ADE005A11C7 /* FreshFarmEatsUITests.swift */; };
+		8D21CDA525DDFA950076028D /* FarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDA425DDFA950076028D /* FarmModel.swift */; };
+		8D21CDAD25DDFBD80076028D /* FarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */; };
+		8D21CDB225DDFC0F0076028D /* FarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDB125DDFC0F0076028D /* FarmView.swift */; };
+		8DCFD1D225DDABE6003F1B37 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1D125DDABE6003F1B37 /* model.swift */; };
+		8DCFD1D725DDAC3D003F1B37 /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */; };
+		8DCFD1F125DDB069003F1B37 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1F025DDB069003F1B37 /* TodoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D067BEE25DC9ADE005A11C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D067BD425DC9ADB005A11C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D067BDB25DC9ADB005A11C7;
+			remoteInfo = FreshFarmEats;
+		};
+		8D067BF925DC9ADE005A11C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D067BD425DC9ADB005A11C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D067BDB25DC9ADB005A11C7;
+			remoteInfo = FreshFarmEats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D067BDC25DC9ADB005A11C7 /* FreshFarmEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFarmEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D067BDF25DC9ADB005A11C7 /* FreshFarmEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshFarmEatsApp.swift; sourceTree = "<group>"; };
+		8D067BE125DC9ADB005A11C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D067BE325DC9ADE005A11C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D067BE625DC9ADE005A11C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D067BE825DC9ADE005A11C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D067BED25DC9ADE005A11C7 /* FreshFarmEatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshFarmEatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D067BF125DC9ADE005A11C7 /* FreshFarmEatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshFarmEatsTests.swift; sourceTree = "<group>"; };
+		8D067BF325DC9ADE005A11C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D067BF825DC9ADE005A11C7 /* FreshFarmEatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshFarmEatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D067BFC25DC9ADE005A11C7 /* FreshFarmEatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshFarmEatsUITests.swift; sourceTree = "<group>"; };
+		8D067BFE25DC9ADE005A11C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D21CDA425DDFA950076028D /* FarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmModel.swift; sourceTree = "<group>"; };
+		8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmViewModel.swift; sourceTree = "<group>"; };
+		8D21CDB125DDFC0F0076028D /* FarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmView.swift; sourceTree = "<group>"; };
+		8DCFD1D125DDABE6003F1B37 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
+		8DCFD1F025DDB069003F1B37 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D067BD925DC9ADB005A11C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BEA25DC9ADE005A11C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BF525DC9ADE005A11C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D067BD325DC9ADB005A11C7 = {
+			isa = PBXGroup;
+			children = (
+				8D067BDE25DC9ADB005A11C7 /* FreshFarmEats */,
+				8D067BF025DC9ADE005A11C7 /* FreshFarmEatsTests */,
+				8D067BFB25DC9ADE005A11C7 /* FreshFarmEatsUITests */,
+				8D067BDD25DC9ADB005A11C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D067BDD25DC9ADB005A11C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D067BDC25DC9ADB005A11C7 /* FreshFarmEats.app */,
+				8D067BED25DC9ADE005A11C7 /* FreshFarmEatsTests.xctest */,
+				8D067BF825DC9ADE005A11C7 /* FreshFarmEatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D067BDE25DC9ADB005A11C7 /* FreshFarmEats */ = {
+			isa = PBXGroup;
+			children = (
+				8D21CDA325DDFA870076028D /* Farms */,
+				8DCFD1D025DDABCF003F1B37 /* Todo */,
+				8D067BDF25DC9ADB005A11C7 /* FreshFarmEatsApp.swift */,
+				8D067BE125DC9ADB005A11C7 /* ContentView.swift */,
+				8D067BE325DC9ADE005A11C7 /* Assets.xcassets */,
+				8D067BE825DC9ADE005A11C7 /* Info.plist */,
+				8D067BE525DC9ADE005A11C7 /* Preview Content */,
+			);
+			path = FreshFarmEats;
+			sourceTree = "<group>";
+		};
+		8D067BE525DC9ADE005A11C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D067BE625DC9ADE005A11C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D067BF025DC9ADE005A11C7 /* FreshFarmEatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D067BF125DC9ADE005A11C7 /* FreshFarmEatsTests.swift */,
+				8D067BF325DC9ADE005A11C7 /* Info.plist */,
+			);
+			path = FreshFarmEatsTests;
+			sourceTree = "<group>";
+		};
+		8D067BFB25DC9ADE005A11C7 /* FreshFarmEatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D067BFC25DC9ADE005A11C7 /* FreshFarmEatsUITests.swift */,
+				8D067BFE25DC9ADE005A11C7 /* Info.plist */,
+			);
+			path = FreshFarmEatsUITests;
+			sourceTree = "<group>";
+		};
+		8D21CDA325DDFA870076028D /* Farms */ = {
+			isa = PBXGroup;
+			children = (
+				8D21CDA425DDFA950076028D /* FarmModel.swift */,
+				8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */,
+				8D21CDB125DDFC0F0076028D /* FarmView.swift */,
+			);
+			path = Farms;
+			sourceTree = "<group>";
+		};
+		8DCFD1D025DDABCF003F1B37 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				8DCFD1D125DDABE6003F1B37 /* model.swift */,
+				8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */,
+				8DCFD1F025DDB069003F1B37 /* TodoView.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D067BDB25DC9ADB005A11C7 /* FreshFarmEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D067C0125DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEats" */;
+			buildPhases = (
+				8D067BD825DC9ADB005A11C7 /* Sources */,
+				8D067BD925DC9ADB005A11C7 /* Frameworks */,
+				8D067BDA25DC9ADB005A11C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshFarmEats;
+			productName = FreshFarmEats;
+			productReference = 8D067BDC25DC9ADB005A11C7 /* FreshFarmEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D067BEC25DC9ADE005A11C7 /* FreshFarmEatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D067C0425DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEatsTests" */;
+			buildPhases = (
+				8D067BE925DC9ADE005A11C7 /* Sources */,
+				8D067BEA25DC9ADE005A11C7 /* Frameworks */,
+				8D067BEB25DC9ADE005A11C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D067BEF25DC9ADE005A11C7 /* PBXTargetDependency */,
+			);
+			name = FreshFarmEatsTests;
+			productName = FreshFarmEatsTests;
+			productReference = 8D067BED25DC9ADE005A11C7 /* FreshFarmEatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D067BF725DC9ADE005A11C7 /* FreshFarmEatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D067C0725DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEatsUITests" */;
+			buildPhases = (
+				8D067BF425DC9ADE005A11C7 /* Sources */,
+				8D067BF525DC9ADE005A11C7 /* Frameworks */,
+				8D067BF625DC9ADE005A11C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D067BFA25DC9ADE005A11C7 /* PBXTargetDependency */,
+			);
+			name = FreshFarmEatsUITests;
+			productName = FreshFarmEatsUITests;
+			productReference = 8D067BF825DC9ADE005A11C7 /* FreshFarmEatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D067BD425DC9ADB005A11C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8D067BDB25DC9ADB005A11C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8D067BEC25DC9ADE005A11C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8D067BDB25DC9ADB005A11C7;
+					};
+					8D067BF725DC9ADE005A11C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8D067BDB25DC9ADB005A11C7;
+					};
+				};
+			};
+			buildConfigurationList = 8D067BD725DC9ADB005A11C7 /* Build configuration list for PBXProject "FreshFarmEats" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D067BD325DC9ADB005A11C7;
+			productRefGroup = 8D067BDD25DC9ADB005A11C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D067BDB25DC9ADB005A11C7 /* FreshFarmEats */,
+				8D067BEC25DC9ADE005A11C7 /* FreshFarmEatsTests */,
+				8D067BF725DC9ADE005A11C7 /* FreshFarmEatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D067BDA25DC9ADB005A11C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D067BE725DC9ADE005A11C7 /* Preview Assets.xcassets in Resources */,
+				8D067BE425DC9ADE005A11C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BEB25DC9ADE005A11C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BF625DC9ADE005A11C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D067BD825DC9ADB005A11C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCFD1F125DDB069003F1B37 /* TodoView.swift in Sources */,
+				8D067BE225DC9ADB005A11C7 /* ContentView.swift in Sources */,
+				8D21CDB225DDFC0F0076028D /* FarmView.swift in Sources */,
+				8D067BE025DC9ADB005A11C7 /* FreshFarmEatsApp.swift in Sources */,
+				8D21CDAD25DDFBD80076028D /* FarmViewModel.swift in Sources */,
+				8D21CDA525DDFA950076028D /* FarmModel.swift in Sources */,
+				8DCFD1D725DDAC3D003F1B37 /* viewmodel.swift in Sources */,
+				8DCFD1D225DDABE6003F1B37 /* model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BE925DC9ADE005A11C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D067BF225DC9ADE005A11C7 /* FreshFarmEatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D067BF425DC9ADE005A11C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D067BFD25DC9ADE005A11C7 /* FreshFarmEatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D067BEF25DC9ADE005A11C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D067BDB25DC9ADB005A11C7 /* FreshFarmEats */;
+			targetProxy = 8D067BEE25DC9ADE005A11C7 /* PBXContainerItemProxy */;
+		};
+		8D067BFA25DC9ADE005A11C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D067BDB25DC9ADB005A11C7 /* FreshFarmEats */;
+			targetProxy = 8D067BF925DC9ADE005A11C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D067BFF25DC9ADE005A11C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D067C0025DC9ADE005A11C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D067C0225DC9ADE005A11C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshFarmEats/Preview Content\"";
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FreshFarmEats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D067C0325DC9ADE005A11C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshFarmEats/Preview Content\"";
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FreshFarmEats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D067C0525DC9ADE005A11C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				INFOPLIST_FILE = FreshFarmEatsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshFarmEats.app/FreshFarmEats";
+			};
+			name = Debug;
+		};
+		8D067C0625DC9ADE005A11C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				INFOPLIST_FILE = FreshFarmEatsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshFarmEats.app/FreshFarmEats";
+			};
+			name = Release;
+		};
+		8D067C0825DC9ADE005A11C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				INFOPLIST_FILE = FreshFarmEatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshFarmEats;
+			};
+			name = Debug;
+		};
+		8D067C0925DC9ADE005A11C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7TQ2QARF5;
+				INFOPLIST_FILE = FreshFarmEatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.iamg.FreshFarmEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshFarmEats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D067BD725DC9ADB005A11C7 /* Build configuration list for PBXProject "FreshFarmEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D067BFF25DC9ADE005A11C7 /* Debug */,
+				8D067C0025DC9ADE005A11C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D067C0125DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D067C0225DC9ADE005A11C7 /* Debug */,
+				8D067C0325DC9ADE005A11C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D067C0425DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D067C0525DC9ADE005A11C7 /* Debug */,
+				8D067C0625DC9ADE005A11C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D067C0725DC9ADE005A11C7 /* Build configuration list for PBXNativeTarget "FreshFarmEatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D067C0825DC9ADE005A11C7 /* Debug */,
+				8D067C0925DC9ADE005A11C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D067BD425DC9ADB005A11C7 /* Project object */;
+}
