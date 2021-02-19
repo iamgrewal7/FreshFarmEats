@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CartView: View {
     @EnvironmentObject private var cart: CartModel
+    @State private var paid = false
     
     var body: some View {
         VStack {
@@ -19,21 +20,29 @@ struct CartView: View {
                 Spacer()
             }.padding()
             if !cart.isEmpty() {
-                List(cart.getCart(), id: \.self) { product in
-                    ItemView(product: product, count: cart.cart[product]!)
+                List {
+                    ForEach(cart.getCart(), id: \.self) { product in
+                        ItemView(product: product)
+                    }
                 }
-                Button(action: {}) {
+                Button(action: {paid.toggle()}) {
                     HStack {
-                        Image(systemName: "applelogo")
-                            .font(.headline)
-                            .foregroundColor(.black)
-                        Text("Pay")
-                            .font(.headline)
-                            .foregroundColor(.white)
+                        if !paid {
+                            Image(systemName: "applelogo")
+                                .font(.headline)
+                                .foregroundColor(.black)
+                            Text("Pay")
+                                .font(.headline)
+                                .foregroundColor(.white)
+                        } else {
+                            Image(systemName: "checkmark.circle")
+                                .font(.title)
+                                .foregroundColor(.white)
+                        }
                     }
                     .padding()
                     .frame(width: 300, height: 50)
-                    .background(Color.green)
+                    .background(paid ? Color.blue: Color.green)
                     .cornerRadius(15.0)
                 }.padding(.top, 50)
             } else {

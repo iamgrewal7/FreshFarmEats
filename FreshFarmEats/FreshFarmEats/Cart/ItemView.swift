@@ -9,27 +9,34 @@ import SwiftUI
 
 struct ItemView: View {
     @EnvironmentObject private var cart: CartModel
-    
     var product: Product
-    var count: Int
     
     var body: some View {
         VStack(alignment: .leading) {
             Text(product.name)
                 .font(.title)
             HStack {
-                Text(String(format: "%.1f", product.price))
+                Text(String(format: "Price: $%.1f/lb", product.price))
                     .font(.headline)
+                    .foregroundColor(.secondary)
                 Spacer()
                 HStack {
-                    Button(action: {cart.increment(product: product)}) {
+                    Button(action: {
+                        cart.addProduct(product: product)
+                        print("Tapped Plus")
+                    }, label: {
                         Image(systemName: "plus.circle.fill")
-                    }
-                    Text("\(count)")
+                            .foregroundColor(.blue)
+                    })
+                    Text("\(cart.getCount(product: product))")
                         .font(.headline)
-                    Button(action: {cart.decrement(product: product)}) {
+                    Button(action: {
+                        cart.removeProduct(product: product)
+                        print("Tapped Minus")
+                    }, label: {
                         Image(systemName: "minus.circle.fill")
-                    }
+                            .foregroundColor(.blue)
+                    })
                 }
             }
             

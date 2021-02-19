@@ -8,35 +8,6 @@
 import SwiftUI
 
 
-class CartModel: ObservableObject {
-    @Published var cart: [Product: Int] = [:]
-    
-    func addProduct(product: Product) {
-        cart[product] = (cart[product] ?? 0) + 1
-    }
-    
-    func getCart() -> [Product] {
-        return Array(cart.keys)
-    }
-    
-    func isEmpty() -> Bool {
-        return cart.count == 0
-    }
-    
-    func increment(product: Product) {
-        cart[product]! += 1
-    }
-    
-    func decrement(product: Product) {
-        cart[product]! -= 1
-        if cart[product]! <= 0 {
-            cart[product] = nil
-        }
-    }
-}
-
-
-
 struct CartButton: View {
     var body: some View {
         VStack {

@@ -25,6 +25,7 @@
 		8D92D6D225DF931300D73097 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6D125DF931300D73097 /* ItemView.swift */; };
 		8D92D6D725DF934A00D73097 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6D625DF934A00D73097 /* CartView.swift */; };
 		8D92D6DC25DF940600D73097 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6DB25DF940600D73097 /* FilterView.swift */; };
+		8D92D6E125DF998C00D73097 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6E025DF998C00D73097 /* CartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8D92D6D125DF931300D73097 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		8D92D6D625DF934A00D73097 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		8D92D6DB25DF940600D73097 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		8D92D6E025DF998C00D73097 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			children = (
 				8D92D6D125DF931300D73097 /* ItemView.swift */,
 				8D92D6D625DF934A00D73097 /* CartView.swift */,
+				8D92D6E025DF998C00D73097 /* CartViewModel.swift */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				8D92D6D725DF934A00D73097 /* CartView.swift in Sources */,
 				8D21CDBF25DE24B60076028D /* FarmDetailView.swift in Sources */,
 				8D92D6B525DF388100D73097 /* AsyncImage.swift in Sources */,
+				8D92D6E125DF998C00D73097 /* CartViewModel.swift in Sources */,
 				8D067BE025DC9ADB005A11C7 /* FreshFarmEatsApp.swift in Sources */,
 				8D21CDBA25DE231E0076028D /* FarmListView.swift in Sources */,
 				8D92D6C925DF80E200D73097 /* ProductViewModel.swift in Sources */,
