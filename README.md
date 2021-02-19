@@ -6,7 +6,8 @@
   </a>
 
   <h3 align="center">FreshFarmEats</h3>
-
+  A platform for local farmers to market their products.
+  <br />
   <p align="center">
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -49,10 +50,10 @@
 ## Getting Started
 
 ### Prerequisites
-1. Apple Mac
+Apple Mac
 
 ### Installation
-1. Install Xcode 12 from app store
+Install Xcode 12 from app store
 
 ## Usage
 1. Change the **bundle identifier** ![bundle](https://user-images.githubusercontent.com/25194600/108473543-02c87900-7243-11eb-94ca-582cb3657ea5.png)
