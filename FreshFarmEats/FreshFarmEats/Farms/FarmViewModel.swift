@@ -12,18 +12,22 @@ class FarmViewModel: ObservableObject {
     @Published var farms: [Farm] = []
     
     func fetchFarms() {
-        print("Here")
         guard let url = URL(string: "https://ffe1.azurewebsites.net/api/getFarms?code=iecrAzthkqmzggSyUub2AcOJAhS2ykh5RXz0SlYexuBVze0aq6ytKA==") else {
             print("Your API end point is Invalid")
             return
         }
         let request = URLRequest(url: url)
 
+
         URLSession.shared.dataTask(with: request) { data, response, error in
+            
             if let data = data {
                 if let response = try? JSONDecoder().decode([Farm].self, from: data) {
                     DispatchQueue.main.async {
-                        self.farms = response
+                        let sortedResponse = response.sorted {
+                            $0.distance < $1.distance
+                        }
+                        self.farms = sortedResponse
                     }
                     return
                 }

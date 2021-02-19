@@ -16,9 +16,15 @@
 		8D21CDA525DDFA950076028D /* FarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDA425DDFA950076028D /* FarmModel.swift */; };
 		8D21CDAD25DDFBD80076028D /* FarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */; };
 		8D21CDB225DDFC0F0076028D /* FarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDB125DDFC0F0076028D /* FarmView.swift */; };
-		8DCFD1D225DDABE6003F1B37 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1D125DDABE6003F1B37 /* model.swift */; };
-		8DCFD1D725DDAC3D003F1B37 /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */; };
-		8DCFD1F125DDB069003F1B37 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFD1F025DDB069003F1B37 /* TodoView.swift */; };
+		8D21CDBA25DE231E0076028D /* FarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDB925DE231E0076028D /* FarmListView.swift */; };
+		8D21CDBF25DE24B60076028D /* FarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDBE25DE24B60076028D /* FarmDetailView.swift */; };
+		8D21CDC425DE43E50076028D /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21CDC325DE43E50076028D /* ProductView.swift */; };
+		8D92D6B525DF388100D73097 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6B425DF388100D73097 /* AsyncImage.swift */; };
+		8D92D6BB25DF39A200D73097 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6BA25DF39A200D73097 /* ProductModel.swift */; };
+		8D92D6C925DF80E200D73097 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6C825DF80E200D73097 /* ProductViewModel.swift */; };
+		8D92D6D225DF931300D73097 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6D125DF931300D73097 /* ItemView.swift */; };
+		8D92D6D725DF934A00D73097 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6D625DF934A00D73097 /* CartView.swift */; };
+		8D92D6DC25DF940600D73097 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92D6DB25DF940600D73097 /* FilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +60,15 @@
 		8D21CDA425DDFA950076028D /* FarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmModel.swift; sourceTree = "<group>"; };
 		8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmViewModel.swift; sourceTree = "<group>"; };
 		8D21CDB125DDFC0F0076028D /* FarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmView.swift; sourceTree = "<group>"; };
-		8DCFD1D125DDABE6003F1B37 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
-		8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
-		8DCFD1F025DDB069003F1B37 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		8D21CDB925DE231E0076028D /* FarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmListView.swift; sourceTree = "<group>"; };
+		8D21CDBE25DE24B60076028D /* FarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmDetailView.swift; sourceTree = "<group>"; };
+		8D21CDC325DE43E50076028D /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		8D92D6B425DF388100D73097 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		8D92D6BA25DF39A200D73097 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		8D92D6C825DF80E200D73097 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		8D92D6D125DF931300D73097 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		8D92D6D625DF934A00D73097 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		8D92D6DB25DF940600D73097 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +119,13 @@
 		8D067BDE25DC9ADB005A11C7 /* FreshFarmEats */ = {
 			isa = PBXGroup;
 			children = (
+				8D92D6CD25DF927200D73097 /* Cart */,
+				8D92D6B925DF398D00D73097 /* Products */,
+				8D92D6B325DF385F00D73097 /* Util */,
 				8D21CDA325DDFA870076028D /* Farms */,
-				8DCFD1D025DDABCF003F1B37 /* Todo */,
 				8D067BDF25DC9ADB005A11C7 /* FreshFarmEatsApp.swift */,
 				8D067BE125DC9ADB005A11C7 /* ContentView.swift */,
+				8D92D6DB25DF940600D73097 /* FilterView.swift */,
 				8D067BE325DC9ADE005A11C7 /* Assets.xcassets */,
 				8D067BE825DC9ADE005A11C7 /* Info.plist */,
 				8D067BE525DC9ADE005A11C7 /* Preview Content */,
@@ -150,18 +165,37 @@
 				8D21CDA425DDFA950076028D /* FarmModel.swift */,
 				8D21CDAC25DDFBD80076028D /* FarmViewModel.swift */,
 				8D21CDB125DDFC0F0076028D /* FarmView.swift */,
+				8D21CDB925DE231E0076028D /* FarmListView.swift */,
+				8D21CDBE25DE24B60076028D /* FarmDetailView.swift */,
 			);
 			path = Farms;
 			sourceTree = "<group>";
 		};
-		8DCFD1D025DDABCF003F1B37 /* Todo */ = {
+		8D92D6B325DF385F00D73097 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				8DCFD1D125DDABE6003F1B37 /* model.swift */,
-				8DCFD1D625DDAC3D003F1B37 /* viewmodel.swift */,
-				8DCFD1F025DDB069003F1B37 /* TodoView.swift */,
+				8D92D6B425DF388100D73097 /* AsyncImage.swift */,
 			);
-			path = Todo;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8D92D6B925DF398D00D73097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D92D6BA25DF39A200D73097 /* ProductModel.swift */,
+				8D21CDC325DE43E50076028D /* ProductView.swift */,
+				8D92D6C825DF80E200D73097 /* ProductViewModel.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		8D92D6CD25DF927200D73097 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				8D92D6D125DF931300D73097 /* ItemView.swift */,
+				8D92D6D625DF934A00D73097 /* CartView.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,14 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCFD1F125DDB069003F1B37 /* TodoView.swift in Sources */,
+				8D92D6DC25DF940600D73097 /* FilterView.swift in Sources */,
 				8D067BE225DC9ADB005A11C7 /* ContentView.swift in Sources */,
 				8D21CDB225DDFC0F0076028D /* FarmView.swift in Sources */,
+				8D92D6D725DF934A00D73097 /* CartView.swift in Sources */,
+				8D21CDBF25DE24B60076028D /* FarmDetailView.swift in Sources */,
+				8D92D6B525DF388100D73097 /* AsyncImage.swift in Sources */,
 				8D067BE025DC9ADB005A11C7 /* FreshFarmEatsApp.swift in Sources */,
+				8D21CDBA25DE231E0076028D /* FarmListView.swift in Sources */,
+				8D92D6C925DF80E200D73097 /* ProductViewModel.swift in Sources */,
+				8D92D6D225DF931300D73097 /* ItemView.swift in Sources */,
 				8D21CDAD25DDFBD80076028D /* FarmViewModel.swift in Sources */,
+				8D21CDC425DE43E50076028D /* ProductView.swift in Sources */,
+				8D92D6BB25DF39A200D73097 /* ProductModel.swift in Sources */,
 				8D21CDA525DDFA950076028D /* FarmModel.swift in Sources */,
-				8DCFD1D725DDAC3D003F1B37 /* viewmodel.swift in Sources */,
-				8DCFD1D225DDABE6003F1B37 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

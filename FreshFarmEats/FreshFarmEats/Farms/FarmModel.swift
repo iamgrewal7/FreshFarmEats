@@ -7,19 +7,12 @@
 
 import Foundation
 
-struct Product: Codable {
-    let name: String
-    let price: Double
-}
-
 struct Farm: Codable  {
     let name: String
-    let addresss: String
+    let address: String
     let rating: Double
     let distance: Double
-    let Products: [Product]
-    let title: String
-    let completed: Bool
+    let products: [Product]
     let img: String
 }
 
