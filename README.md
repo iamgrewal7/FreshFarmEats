@@ -60,6 +60,6 @@ Install Xcode 12 from app store
 1. Change the **bundle identifier** ![bundle](https://user-images.githubusercontent.com/25194600/108473543-02c87900-7243-11eb-94ca-582cb3657ea5.png)
 2. Also **change the team** to you team![team](https://user-images.githubusercontent.com/25194600/108473585-11169500-7243-11eb-85f4-118a542ab6b5.png)
 3. Build the app to either **simulator** or your **iPhone**.
-> **For best experience run in light mode on the device**
+> **For best experience run the app in light mode when running on actual device**
 
 
