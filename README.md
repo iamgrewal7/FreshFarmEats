@@ -6,9 +6,10 @@
   </a>
 
   <h3 align="center">FreshFarmEats</h3>
-  A platform for local farmers to market their products.
-  <br />
+
   <p align="center">
+    A platform for local farmers to market their products.
+    <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
