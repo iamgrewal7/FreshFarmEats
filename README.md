@@ -10,7 +10,7 @@
   <p align="center">
     A platform for local farmers to market their products.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/iamgrewal7/FreshFarmEats"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
